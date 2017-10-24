@@ -1,0 +1,474 @@
+.workbitch {
+    overflow: hidden;
+    position: fixed;
+    z-index: 999999999999;
+    width: 100%;
+    height: 100%;
+    background: rgba(18, 12, 24, 0.70);
+    color: white;
+    text-align: center;
+    font-size: 56px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.workbitch.mini {
+    width: 300px;
+    font-size: 25px;
+    padding: 15px;
+    cursor: pointer;
+    height: 52px;
+    background: #5b527f;
+    visibility: visible;
+    opacity: 1;
+}
+
+.workbitch.mini:hover {
+    background: rgb(32, 30, 38);
+}
+
+.workbitch.mini.none {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.workbitch .stop {
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 3px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 300px;
+    font-size: 31px;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    background: transparent;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.workbitch .stop:hover {
+    background: rgba(255, 255, 255, 0.25);
+}
+
+.workbitch .profil {
+    position: fixed;
+    top: 25px;
+    left: 25px;
+    z-index: 99;
+
+}
+
+.workbitch .profil div {
+    width: 100px;
+    height:100px;
+    border-radius:100%; 
+    background-size: 100% !important;
+    background-position:center !important;
+    background-repeat: no-repeat !important;
+    box-shadow: rgba(0, 0, 0, 0.33) 3px 3px 14px 0px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.workbitch .profil div:hover{
+    transform: scale(1.1);
+}
+
+.workbitch .profil div.mathieu{
+    margin-bottom: 25px;
+    background:url('https://cdn.1min30.com/wp-content/uploads/2017/07/profil.png');
+}
+
+.workbitch .profil div.agence{
+    background:url('https://cdn.1min30.com/wp-content/uploads/2017/07/cocreationlogo.png');
+}
+
+.workbitch .sponso {
+    position: absolute;
+    bottom: 0px;
+    background: #0084bf;
+    font-size: 31px;
+    line-height: 37px;
+    width: 50%;
+    height: 77px;
+    box-sizing: border-box;
+    padding: 20px;
+    cursor:pointer;
+    -webkit-transition: height 0.5s ease;
+    -moz-transition: height 0.3s ease;
+    -ms-transition: height 0.3s ease;
+    -o-transition: height 0.3s ease;
+    transition: height 0.3s ease;
+}
+
+.workbitch .sponso:hover {
+    height: 90px;
+}
+
+.workbitch .sponso.support {
+    background: black;
+    left: 0px;
+    animation: linkedin 9s linear infinite alternate;
+    -webkit-animation: linkedin 9s linear infinite alternate;
+    -moz-animation: linkedin 9s linear infinite alternate;
+    -o-animation: linkedin 9s linear infinite alternate;
+}
+
+.workbitch .sponso.article {
+    right: 0px;
+    animation: linkedin 8s linear infinite alternate;
+    -webkit-animation: linkedin 8s linear infinite alternate;
+    -moz-animation: linkedin 8s linear infinite alternate;
+    -o-animation: linkedin 8s linear infinite alternate;
+}
+
+.workbitch .logo {
+    position: relative;
+    top: 20px;
+    text-align: center;
+    margin: auto;
+    width: 173px;
+    margin-bottom: 57px;
+}
+
+.workbitch .logo a {
+    text-decoration: none;
+}
+
+.workbitch .logo i {
+    position: absolute;
+    bottom: 12px;
+    right: 29px;
+    z-index: 1;
+    font-size: 40px;
+    text-shadow: -2px -2px 6px rgba(0, 0, 0, 0.68);
+    bottom: 1px;
+    right: 23px;
+    color: white;
+    animation: color 5s alternate infinite;
+    -webkit-animation: color 5s alternate infinite;
+    -moz-animation: color 5s alternate infinite;
+    -o-animation: color 5s alternate infinite;
+}
+
+.workbitch span {
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    line-height: 58px;
+    text-transform: uppercase;
+    position: relative;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    opacity: 1;
+}
+
+.workbitch span.none {
+    opacity: 0;
+}
+
+.workbitch .close_button {
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    font-size: 36px;
+    cursor: pointer;
+}
+
+.workbitch .button_content {
+    display: block;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    opacity: 1;
+    top: 0px;
+    margin-top: 65px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.workbitch .button_content.none {
+    opacity: 0;
+}
+
+.workbitch .button_content .button {
+    box-sizing: border-box;
+    border: 2px solid white;
+    padding: 25px;
+    border-radius: 3px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 26%;
+    width: 60%;
+    max-width: 1000px;
+    min-width: 300px;
+    font-size: 31px;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    background: transparent;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.workbitch .button_content .button p, .workbitch .button_content .button i {
+    margin: 0px;
+    position: relative;
+    z-index: 9;
+    font-size: 31px;
+    color: white;
+    line-height: 34px;
+}
+
+.workbitch .button_content .button:after {
+    content: "";
+    background: #0084bf;
+    height: 100%;
+    width: 90%;
+    left: -100%;
+    position: absolute;
+    top: 0px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    -webkit-box-shadow: 6px 0px 14px 0px rgba(50, 50, 50, 0.7);
+    -moz-box-shadow: 6px 0px 14px 0px rgba(50, 50, 50, 0.7);
+    box-shadow: 6px 0px 14px 0px rgba(50, 50, 50, 0.7);
+}
+
+.workbitch .button_content .button:hover:after {
+    left: 0px;
+}
+
+
+.workbitch .button_content .button span {
+    position: absolute;
+}
+
+.workbitch .wait {
+    font-size: 40px;
+    text-align: center;
+    opacity: 1;
+    visibility: visible;
+    margin: auto;
+    height: 100px;
+    width: 100px;
+    border-color: rgba(255, 255, 255, 0) rgb(255, 255, 255);
+    border-width: 5px;
+    margin-top: 40px;
+    border-style: solid;
+    border-radius: 100%;
+    position: relative;
+    top: -155px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    animation: rotate 1s linear infinite;
+    -webkit-animation: rotate 1s linear infinite;
+    -moz-animation: rotate 1s linear infinite;
+    -o-animation: rotate 1s linear infinite;
+}
+
+.workbitch .wait.mini {
+    top: -31px;
+    width: 33px;
+    height: 33px;
+}
+
+.workbitch.mini:hover .wait {
+    top: 100%;
+}
+
+.workbitch .count {
+    font-size: 40px;
+    text-align: center;
+    opacity: 1;
+    visibility: visible;
+    margin: auto;
+    position: relative;
+    height: 100px;
+    width: 100px;
+    margin-top: 40px;
+}
+
+.workbitch .count.mini {
+    font-size: 14px;
+    top: -79px;
+    text-align: center;
+    opacity: 1;
+    visibility: visible;
+    margin: auto;
+    position: relative;
+    height: 40px;
+    width: 40px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.workbitch.mini:hover .count.mini {
+    top: 100%;
+}
+
+.workbitch.mini .stop {
+    position: relative;
+    top: -100%;
+    font-size: 22px;
+    top: -56px;
+    cursor: pointer;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.workbitch.mini:hover .stop {
+    top: -59px;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@-o-keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes color {
+    from {
+        color: #fff;
+    }
+    to {
+        color: #00ffda;
+    }
+}
+
+@-webkit-keyframes color {
+    from {
+        color: #fff;
+    }
+    to {
+        color: #00ffda;
+    }
+}
+
+@-moz-keyframes color {
+    from {
+        color: #fff;
+    }
+    to {
+        color: #00ffda;
+    }
+}
+
+@-o-keyframes color {
+    from {
+        color: #fff;
+    }
+    to {
+        color: #00ffda;
+    }
+}
+
+
+@keyframes linkedin {
+    0% {
+        background: #0084bf;
+    }
+    100% {
+        background: #1d1d1d;
+    }
+}
+
+@-webkit-keyframes linkedin {
+    0% {
+        background: #0084bf;
+    }
+    100% {
+        background: #1d1d1d;
+    }
+}
+
+@-moz-keyframes linkedin {
+    0% {
+        background: #0084bf;
+    }
+    100% {
+        background: #1d1d1d;
+    }
+}
+
+@-o-keyframes linkedin {
+    0% {
+        background: #0084bf;
+    }
+    100% {
+        background: #1d1d1d;
+    }
+}
